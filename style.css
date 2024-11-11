@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+  background-image: url("floating\ code.jpg"); /* Pfad zum Bild */
+  background-size: cover; /* Bild wird so skaliert, dass es den gesamten Bildschirm abdeckt */
+  background-position: center; /* Bild wird in der Mitte positioniert */
+}
+
+.app-container {
+  width: 90%;
+  max-width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#next-button {
+  display: block;
+  margin-top: 20px;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
